@@ -14,7 +14,10 @@
     100% { opacity: 0.66; }
 }
 
-/* Theme Info Display - Removed for cleaner appearance */
+/* Theme Info Display - Title bar branding removed for cleaner appearance */
+/* .info__2debe::after - Removed to hide version info */
+/* .visual-refresh:not(.platform-osx) .leading_c38106::before - Removed to hide "ClearVision" text */  
+/* .visual-refresh:not(.platform-osx) .leading_c38106::after - Removed to hide version number */
 
 /* Button Styling */
 .button__201d5 { border-radius: 4px; }
